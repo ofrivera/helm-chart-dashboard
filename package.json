@@ -1,0 +1,26 @@
+{
+    "name": "chart-dashboard",
+    "version": "1.0.0",
+    "description": "Dashboard for Chart.yaml files",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "cd frontend && npm start",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "build": "cd frontend && npm install && npm run build"
+    },
+    "dependencies": {
+        "config": "^3.3.12",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.17.1",
+        "js-yaml": "^4.1.0",
+        "semver": "^7.6.3"
+    },
+    "devDependencies": {
+        "concurrently": "^6.2.0",
+        "nodemon": "^2.0.7"
+    }
+}

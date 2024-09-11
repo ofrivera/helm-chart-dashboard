@@ -1,0 +1,17 @@
+apiVersion: v1
+name: sample-app-2
+version: 1.0.0
+dependencies:
+- name: ingress-nginx
+  version: 4.11.1
+  repository: https://kubernetes.github.io/ingress-nginx
+  alias: ingress-nginx-internal
+- name: cert-manager
+  version: 1.15.0
+  repository: https://charts.jetstack.io
+- name: inhouse-chart
+  version: 1.1.0
+  repository: https://charts.storage.googleapis.com
+- name: inhouse-job-chart
+  version: 1.1.0
+  repository: https://charts.storage.googleapis.com
