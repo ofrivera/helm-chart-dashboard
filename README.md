@@ -22,6 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
 ## Application Purpose
 
-
+This application is meant to be a UI for your Helm chart deployments. It provides an interface to visualize the versions and distribution of your internal and external helm charts. 
